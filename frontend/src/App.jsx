@@ -4,7 +4,6 @@ import axios from "axios";
 import { baseURL } from "./utils/constant";
 import Popup from "./components/Popup";
 
-
 const App = () => {
   const [toDos, setToDos] = useState([]);
   const [input, setInput] = useState("");
